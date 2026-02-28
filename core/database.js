@@ -28,7 +28,7 @@ const WhatsappSession = sequelize.define('WhatsappSession', {
             }
         }
     }
-});
+}, { timestamps: false });
 
 const BotVariable = sequelize.define('BotVariable', {
     key: {
